@@ -1,0 +1,26 @@
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: nyc_taxi_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+
+  backend:
+    build: .
+    command: bash -c "python src/app.py"
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/nyc_taxi_db
+    volumes:
+      - ./:/usr/src/app
+    depends_on:
+      - db
+    ports:
+      - "7070:7070"
+
+volumes:
+  pgdata:
