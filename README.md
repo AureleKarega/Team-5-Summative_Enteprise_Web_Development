@@ -81,7 +81,7 @@ Team-5-Summative_Enterprise_Web_Development/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/nyc-taxi-dashboard.git
+git clone https://github.com/AureleKarega/Team-5-Summative_Enteprise_Web_Development.git
 cd nyc-taxi-dashboard
 ```
 
