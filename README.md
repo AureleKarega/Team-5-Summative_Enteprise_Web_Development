@@ -1,3 +1,68 @@
+Team-5-Summative_Enterprise_Web_Development/
+│
+├── README.md
+├── Team-5_Report_Documentation.pdf
+│
+├── backend/                               # Flask + PostgreSQL backend (and your ETL)
+│   │
+│   ├── data/
+│   │   ├── raw/
+│   │   │   └── train.csv
+│   │   └── processed/
+│   │       └── trips_cleaned.csv
+│   │
+│   ├── instance/
+│   │   └── nyc_taxi.db
+│   │
+│   ├── logs/
+│   │   └── etl.log
+│   │
+│   ├── migrations/
+│   │   ├── alembic.ini
+│   │   ├── env.py
+│   │   ├── script.py.mako
+│   │   └── versions/
+│   │       └── c41d9143fc57_initial.py
+│   │
+│   ├── scripts/
+│   │   ├── run_etl.py
+│   │   └── import_to_db.py
+│   │
+│   ├── src/
+│   │   ├── app.py
+│   │   ├── config.py
+│   │   ├── extensions.py
+│   │   │
+│   │   ├── api/
+│   │   │   └── trips.py
+│   │   │
+│   │   ├── etl_steps/
+│   │   │   ├── cleaner.py
+│   │   │   ├── feature_engineering.py
+│   │   │   └── loader.py
+│   │   │
+│   │   ├── models/
+│   │   │   └── trip.py
+│   │   │
+│   │   ├── services/
+│   │   │   └── etl.py
+│   │   │
+│   │   ├── services_custom/
+│   │   │   └── top_k_hotspots.py
+│   │   │
+│   │   └── utils/
+│   │       └── logger.py
+│   │
+│   ├── .env.example
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── requirements.txt
+│   └── README.md
+│
+└── frontend/                              # Frontend (vanilla HTML/CSS/JS)
+    ├── index.html
+    ├── styles.css
+    └── app.js
 
 # NYC Taxi Trip Analytics Dashboard 
 
