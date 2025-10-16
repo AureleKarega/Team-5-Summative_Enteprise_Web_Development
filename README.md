@@ -96,7 +96,7 @@ python app.py            # Starts Flask API server
 ```
 
 The backend will run at:  
-➡️ `[http://localhost:7070](http://localhost:7070/api/trips)
+➡️ `http://localhost:7070/api/trips
 
 ### 3. Frontend Setup
 Open `frontend/index.html` in your browser or use Live Server in VS Code.  
