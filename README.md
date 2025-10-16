@@ -7,27 +7,6 @@ The system performs data **extraction, transformation, and loading (ETL)**, stor
 
 ---
 
-## Project Structure
-```
-nyc_taxi_app/
-│
-├── backend/
-│   ├── app.py                # Flask API backend
-│   ├── etl_pipeline.py       # Data extraction, cleaning, and loading
-│   ├── requirements.txt      # Backend dependencies
-│   └── db/
-│       ├── schema.sql        # Database schema
-│       └── nyc_taxi.db       # SQLite or PostgreSQL database
-│
-├── frontend/
-│   ├── index.html            # Dashboard UI
-│   ├── style.css             # Styling
-│   ├── script.js             # API calls and chart rendering
-│
-└── docs/
-    ├── NYC_Taxi_Project_Report.pdf
-    └── README.md
-```
 
 ---
 
