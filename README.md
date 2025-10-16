@@ -14,8 +14,8 @@ The system performs data **extraction, transformation, and loading (ETL)**, stor
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/nyc-taxi-dashboard.git
-cd nyc-taxi-dashboard
+[git clone https://github.com/YourUsername/nyc-taxi-dashboard.git](https://github.com/AureleKarega/Team-5-Summative_Enteprise_Web_Development.git)
+cd Team-5-Summative-Enteprise_Web_Development
 ```
 
 ### 2. Backend Setup
