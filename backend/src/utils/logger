@@ -1,0 +1,15 @@
+import logging
+import os
+
+def setup_logging(path='logs/etl.log'):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+    fh = logging.FileHandler(path)
+    formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+    fh.setFormatter(formatter)
+    logger.addHandler(fh)
+    # also console
+    ch = logging.StreamHandler()
+    ch.setFormatter(formatter)
+    logger.addHandler(ch)
