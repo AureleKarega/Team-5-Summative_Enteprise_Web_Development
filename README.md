@@ -104,7 +104,7 @@ curl http://localhost:5000/api/stats
 ---
 
 ## 📹 Video Walkthrough
-🎥 [Video Walkthrough Link](https://youtu.be/example)  
+🎥 [Video Walkthrough Link](https://youtu.be/Hs07qs53w-A)  
 The walkthrough covers:
 - Data cleaning and transformation
 - API demonstration
