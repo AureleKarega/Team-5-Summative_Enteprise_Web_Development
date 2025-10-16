@@ -175,7 +175,15 @@ The walkthrough covers:
 ---
 
 ## 👥 Team & Credits
-Developed by: **Your Name / Team Name**  
+Developed by: 
+**
+``
+1.Aurele Karega
+2.Nina Bwiza
+3.Reine Ella Dusenayo
+4.Alain Christian Mugenga
+/ Team-5
+``**  
 Date: October 16, 2025  
 
 ---
