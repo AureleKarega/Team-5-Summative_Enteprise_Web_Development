@@ -37,7 +37,7 @@ It will automatically connect to the backend API to fetch trip insights.
 
 ---
 
-## 🧠 API Endpoints
+##  API Endpoints
 
 | Endpoint | Method | Description |
 |-----------|--------|-------------|
@@ -53,7 +53,7 @@ curl http://localhost:5000/api/stats
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 **Table:** `trips`
 | Column | Type | Description |
@@ -71,7 +71,7 @@ curl http://localhost:5000/api/stats
 
 ---
 
-## 📊 Features
+##  Features
 
 - Clean and normalized NYC Taxi dataset using Python (ETL)
 - Relational database (SQLite/PostgreSQL) with indexes for fast queries
@@ -92,7 +92,7 @@ The walkthrough covers:
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 **Backend:** Python (Flask)  
 **Database:** SQLite / PostgreSQL  
 **Frontend:** HTML, CSS, JavaScript (Chart.js)  
@@ -100,14 +100,14 @@ The walkthrough covers:
 
 ---
 
-## ✨ Insights
+##  Insights
 - Average fare increases with distance, but tips vary strongly by payment type.  
 - Peak taxi demand observed between **6–9 PM** in Manhattan zones.  
 - Short trips (<2 km) dominate total rides, showing hyper-local movement patterns.  
 
 ---
 
-## 👥 Team & Credits
+##  Team & Credits
 Developed by: 
 **
 1.Reine Ella Dusenayo
@@ -118,6 +118,3 @@ Developed by:
 Date: October 16, 2025  
 
 ---
-
-## 🧾 License
-This project is for educational purposes only.
