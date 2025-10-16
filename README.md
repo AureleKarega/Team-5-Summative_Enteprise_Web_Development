@@ -9,25 +9,71 @@ The system performs data **extraction, transformation, and loading (ETL)**, stor
 
 ## Project Structure
 ```
-nyc_taxi_app/
+Team-5-Summative_Enterprise_Web_Development/
 │
-├── backend/
-│   ├── app.py                # Flask API backend
-│   ├── etl_pipeline.py       # Data extraction, cleaning, and loading
-│   ├── requirements.txt      # Backend dependencies
-│   └── db/
-│       ├── schema.sql        # Database schema
-│       └── nyc_taxi.db       # SQLite or PostgreSQL database
+├── README.md
+├── Team-5_Report_Documentation.pdf
 │
-├── frontend/
-│   ├── index.html            # Dashboard UI
-│   ├── style.css             # Styling
-│   ├── script.js             # API calls and chart rendering
+├── backend/                               # Flask + PostgreSQL backend (ETL + APIs)
+│   │
+│   ├── data/
+│   │   ├── raw/
+│   │   │   └── train.csv
+│   │   └── processed/
+│   │       └── trips_cleaned.csv
+│   │
+│   ├── instance/
+│   │   └── nyc_taxi.db
+│   │
+│   ├── logs/
+│   │   └── etl.log
+│   │
+│   ├── migrations/
+│   │   ├── alembic.ini
+│   │   ├── env.py
+│   │   ├── script.py.mako
+│   │   └── versions/
+│   │       └── c41d9143fc57_initial.py
+│   │
+│   ├── scripts/
+│   │   ├── run_etl.py
+│   │   └── import_to_db.py
+│   │
+│   ├── src/
+│   │   ├── app.py
+│   │   ├── config.py
+│   │   ├── extensions.py
+│   │   │
+│   │   ├── api/
+│   │   │   └── trips.py
+│   │   │
+│   │   ├── etl_steps/
+│   │   │   ├── cleaner.py
+│   │   │   ├── feature_engineering.py
+│   │   │   └── loader.py
+│   │   │
+│   │   ├── models/
+│   │   │   └── trip.py
+│   │   │
+│   │   ├── services/
+│   │   │   └── etl.py
+│   │   │
+│   │   ├── services_custom/
+│   │   │   └── top_k_hotspots.py
+│   │   │
+│   │   └── utils/
+│   │       └── logger.py
+│   │
+│   ├── .env.example
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── requirements.txt
+│   └── README.md
 │
-└── docs/
-    ├── NYC_Taxi_Project_Report.pdf
-    └── README.md
-```
+└── frontend/                              # Frontend (Vanilla HTML, CSS, JS)
+    ├── index.html
+    ├── styles.css
+    └── app.js```
 
 ---
 
