@@ -150,7 +150,7 @@ curl http://localhost:5000/api/stats
 ---
 
 ## 📹 Video Walkthrough
-🎥 [Video Walkthrough Link](https://youtu.be/Hs07qs53w-A)  
+🎥 [Video Walkthrough Link](https://youtu.be/Hs07qs53w-A & https://www.loom.com/share/23974d35f8944eb5bf866e6749136284)  
 The walkthrough covers:
 - Data cleaning and transformation
 - API demonstration
